@@ -1,3 +1,8 @@
-file = open('./bottle.txt', 'a')
-file.write('Some bullshit23')
+doop = open('./bottle.txt', 'a')
+doop.write('doopity \r')
 # file.close()
+
+with open('./bottle.txt', 'r') as afile:
+  data = afile.read()
+
+print(data)
