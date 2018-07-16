@@ -1,5 +1,5 @@
 doop = open('./bottle.txt', 'a')
-doop.write('doopity \r')
+doop.write('doopity')
 # file.close()
 
 with open('./bottle.txt', 'r') as afile:

@@ -20,11 +20,11 @@ with open("data/nicknames.txt", "a") as nicknames:
   if os.path.getsize("data/nicknames.txt") == 0:
     print("Nope, empty", os.path.getsize("data/nicknames.txt"))
     for nick in nickset:
-      nicknames.write(nick + ' ')
+      nicknames.write(nick + '\n')
 
 with open("data/names.txt", "w") as names:
   for name in nameset:
-    names.write(name + ' ')
+    names.write(name + '\n')
 
 
 class NameFactory():
