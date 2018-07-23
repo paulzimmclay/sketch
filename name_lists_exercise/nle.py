@@ -15,7 +15,7 @@ def namelist(name_list):
     # return f'{just_names[0]}'
     return ('%s' %just_names[0])
   elif len(just_names) == 2:
-    return f'{" & ".join(just_names)}'
+    return ("" " & ".join(just_names))
   elif len(just_names) >= 2:
     return f'{", ".join(just_names[0:-1])} & {just_names[-1]}'
   # else len(just_names) < 1:
